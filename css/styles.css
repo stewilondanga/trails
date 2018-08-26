@@ -56,14 +56,14 @@ button {
   margin: 10px 0 5px;
 }
 
-/*a {
+a {
   border-bottom: 1px dotted #444;
   color: #fff;
   font-size: 12px;
   text-decoration: none;
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
