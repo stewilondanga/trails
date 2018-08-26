@@ -7,9 +7,13 @@ var navigate = (function() {
   });
 })();
 
-/*window.requestAnimFrame=function(){return window.requestAnimationFrame||window.webkitRequestAnimationFrame||window.mozRequestAnimationFrame||window.oRequestAnimationFrame||window.msRequestAnimationFrame||function(a){window.setTimeout(a,1E3/60)}}();
+window.requestAnimFrame = function() {
+  return window.requestAnimationFrame || window.webkitRequestAnimationFrame || window.mozRequestAnimationFrame || window.oRequestAnimationFrame || window.msRequestAnimationFrame || function(a) {
+    window.setTimeout(a, 1E3 / 60)
+  }
+}();
 
-document.onselectstart = function() {
+/*document.onselectstart = function() {
   return false;
 };
 var c = document.getElementById('c');
