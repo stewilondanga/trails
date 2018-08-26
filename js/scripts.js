@@ -137,12 +137,12 @@ c.addEventListener('mouseup', turnOffMove, false);
 trailCB.addEventListener('change', toggleTrails, false);
 clearer.addEventListener('click', clear, false);
 
-/*          var count = 100;
-          while(count--){
-          		createOrb(cw/2, ch/2+(count*2));
-          }
+var count = 100;
+while (count--) {
+  createOrb(cw / 2, ch / 2 + (count * 2));
+}
 
-          var loop = function(){
+/*          var loop = function(){
             window.requestAnimFrame(loop);
           	if(trail){
           		ctx.fillStyle = 'rgba(0,0,0,.1)';
