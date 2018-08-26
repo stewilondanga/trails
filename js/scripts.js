@@ -127,11 +127,11 @@ function toggleTrails() {
   trail = trailCB.checked;
 }
 
-/*          function clear(){
-           orbs = [];
-          }
+function clear() {
+  orbs = [];
+}
 
-          c.addEventListener('mousedown', orbGo, false);
+/*          c.addEventListener('mousedown', orbGo, false);
           c.addEventListener('mousedown', turnOnMove, false);
           c.addEventListener('mouseup', turnOffMove, false);
           trailCB.addEventListener('change', toggleTrails, false);
