@@ -109,13 +109,13 @@ function createOrb(mx, my) {
   });
 }
 
-/*          function orbGo(e){
-          	var mx = e.pageX - c.offsetLeft;
-          	var my = e.pageY - c.offsetTop;
-          	createOrb(mx,my);
-          }
+function orbGo(e) {
+  var mx = e.pageX - c.offsetLeft;
+  var my = e.pageY - c.offsetTop;
+  createOrb(mx, my);
+}
 
-          function turnOnMove(){
+/*          function turnOnMove(){
           	c.addEventListener('mousemove', orbGo, false);
           }
 
