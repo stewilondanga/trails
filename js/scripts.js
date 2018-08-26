@@ -1,4 +1,4 @@
-var navigate = (function() {
+/*var navigate = (function() {
 	$('.dd').toggle();
 	$('.dd_btn').click(function() {
 		var dataName = $(this).attr('data-name');
@@ -143,3 +143,4 @@ var loop = function(){
 }
 
 loop();
+*/
