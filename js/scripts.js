@@ -115,11 +115,11 @@ function orbGo(e) {
   createOrb(mx, my);
 }
 
-/*          function turnOnMove(){
-          	c.addEventListener('mousemove', orbGo, false);
-          }
+function turnOnMove() {
+  c.addEventListener('mousemove', orbGo, false);
+}
 
-          function turnOffMove(){
+/*          function turnOffMove(){
           	c.removeEventListener('mousemove', orbGo, false);
           }
 
