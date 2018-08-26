@@ -51,12 +51,12 @@ label {
   font-weight: bold;
 }
 
-/*button {
+button {
   display: block;
   margin: 10px 0 5px;
 }
 
-a {
+/*a {
   border-bottom: 1px dotted #444;
   color: #fff;
   font-size: 12px;
