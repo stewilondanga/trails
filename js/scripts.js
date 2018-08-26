@@ -32,11 +32,11 @@ var orbs = [];
 var orbCount = 30;
 var radius;
 
-/*var trailCB = document.getElementById('trail');
+var trailCB = document.getElementById('trail');
 var trail = trailCB.checked;
 var clearer = document.getElementById('clear');
 
-function createOrb(mx,my){
+/*function createOrb(mx,my){
   var dx = (cw/2) - mx;
 	var dy = (ch/2) - my;
 	var dist = Math.sqrt(dx * dx + dy * dy);
