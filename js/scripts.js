@@ -131,13 +131,13 @@ function clear() {
   orbs = [];
 }
 
-/*          c.addEventListener('mousedown', orbGo, false);
-          c.addEventListener('mousedown', turnOnMove, false);
-          c.addEventListener('mouseup', turnOffMove, false);
-          trailCB.addEventListener('change', toggleTrails, false);
-          clearer.addEventListener('click', clear, false);
+c.addEventListener('mousedown', orbGo, false);
+c.addEventListener('mousedown', turnOnMove, false);
+c.addEventListener('mouseup', turnOffMove, false);
+trailCB.addEventListener('change', toggleTrails, false);
+clearer.addEventListener('click', clear, false);
 
-          var count = 100;
+/*          var count = 100;
           while(count--){
           		createOrb(cw/2, ch/2+(count*2));
           }
