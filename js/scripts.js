@@ -142,25 +142,24 @@ while (count--) {
   createOrb(cw / 2, ch / 2 + (count * 2));
 }
 
-/*          var loop = function(){
-            window.requestAnimFrame(loop);
-          	if(trail){
-          		ctx.fillStyle = 'rgba(0,0,0,.1)';
-          		ctx.fillRect(0,0,cw,ch);
-          	} else {
-          		ctx.clearRect(0,0,cw,ch);
-          	}
-          	var i = orbs.length;
-          	while(i--){
-          		var orb = orbs[i];
-          		var updateCount = 3;
-          		while(updateCount--){
-          		orb.update();
-          		orb.draw(ctx);
-          		}
+var loop = function() {
+  window.requestAnimFrame(loop);
+  if (trail) {
+    ctx.fillStyle = 'rgba(0,0,0,.1)';
+    ctx.fillRect(0, 0, cw, ch);
+  } else {
+    ctx.clearRect(0, 0, cw, ch);
+  }
+  var i = orbs.length;
+  while (i--) {
+    var orb = orbs[i];
+    var updateCount = 3;
+    while (updateCount--) {
+      orb.update();
+      orb.draw(ctx);
+    }
 
-          	}
-          }
+  }
+}
 
-          loop();
-          */
+loop();
