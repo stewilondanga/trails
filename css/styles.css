@@ -31,7 +31,7 @@ canvas {
   width: 100%
 }
 
-/*#control-panel {
+#control-panel {
   background: rgba(0, 0, 0, .75);
   border: 1px solid #333;
   left: 20px;
@@ -41,7 +41,7 @@ canvas {
   z-index: 2;
 }
 
-p {
+/*p {
   font-size: 12px;
   margin: 0 0 5px;
 }
