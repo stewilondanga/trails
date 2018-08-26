@@ -119,11 +119,11 @@ function turnOnMove() {
   c.addEventListener('mousemove', orbGo, false);
 }
 
-/*          function turnOffMove(){
-          	c.removeEventListener('mousemove', orbGo, false);
-          }
+function turnOffMove() {
+  c.removeEventListener('mousemove', orbGo, false);
+}
 
-          function toggleTrails(){
+/*          function toggleTrails(){
           	trail = trailCB.checked;
           }
 
