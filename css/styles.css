@@ -68,11 +68,11 @@ a {
   margin: 20px auto;
 }
 
-/*#contact h1 {
+#contact h1 {
   font-family: helvetica;
   font-weight: normal;
   text-align: center;
-  color: #c0c0c0;
+  color: green;
   padding-top: 50px;
   padding-bottom: 10px;
   width: 375px;
@@ -118,4 +118,5 @@ a {
   padding: 0 2px;
   line-height: 100%;
 }
+
 */
