@@ -13,7 +13,7 @@ window.requestAnimFrame = function() {
   }
 }();
 
-/*document.onselectstart = function() {
+document.onselectstart = function() {
   return false;
 };
 var c = document.getElementById('c');
@@ -24,13 +24,15 @@ var ch = window.innerHeight;
 c.width = cw * dpr;
 c.height = ch * dpr;
 ctx.scale(dpr, dpr);
-var rand = function(rMi, rMa){return ~~((Math.random()*(rMa-rMi+1))+rMi);}
+var rand = function(rMi, rMa) {
+  return ~~((Math.random() * (rMa - rMi + 1)) + rMi);
+}
 ctx.lineCap = 'round';
 var orbs = [];
 var orbCount = 30;
 var radius;
 
-var trailCB = document.getElementById('trail');
+/*var trailCB = document.getElementById('trail');
 var trail = trailCB.checked;
 var clearer = document.getElementById('clear');
 
